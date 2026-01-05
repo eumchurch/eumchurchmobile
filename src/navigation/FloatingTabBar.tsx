@@ -12,7 +12,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Feather from 'react-native-vector-icons/Feather';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-type TabKey = 'A' | 'B' | 'C' | 'D';
+type TabKey = 'HomeView' | 'WorshipView' | 'EssayListView' | 'InformationView';
 
 const TAB_ITEMS: Array<{
   key: TabKey;

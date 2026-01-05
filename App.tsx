@@ -22,10 +22,10 @@ import InformationView from './src/view/InformationView';
 import FloatingTabBar from './src/navigation/FloatingTabBar';
 
 export type RootTabParamList = {
-  A: undefined;
-  B: undefined;
-  C: undefined;
-  D: undefined;
+  HomeView: undefined;
+  WorshipView: undefined;
+  EssayListView: undefined;
+  InformationView: undefined;
 };
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
